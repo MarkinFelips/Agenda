@@ -1,0 +1,68 @@
+@viewport {
+
+    width: device-width;
+
+ }
+
+ @media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+ }
+
+ body{
+    margin: 0;
+    background-color:#E7E7E7;
+    height: 100vh;
+    width: 100vw;
+ }
+ main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: auto;
+    max-height: auto;
+ }
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #04C9F4;
+ }
+ #container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30em;
+    height: 30em;
+    background-color: #D9D9D9;
+
+ }
+ .inputs{
+    width: 330px;
+    height: 46px;
+    margin-top: 1em;
+    gap: 0px;
+    opacity: 0px;
+    font-size: large;
+    border: 1px solid #000;
+
+ }
+ #botao{
+    margin-top: 1em;
+    background-color: #04C9F4;
+    color: #fff;
+    border: 1px solid #000;
+    width: 160px;
+    height: 44px;
+    top: 451px;
+    left: 332px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: large;
+ }

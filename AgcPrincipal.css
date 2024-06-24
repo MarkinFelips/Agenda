@@ -1,0 +1,58 @@
+@viewport {
+
+    width: device-width;
+
+ }
+ @media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+ }
+
+body{
+    display: grid;
+    background-color: #e7e7e7;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    background-color: #04C9F4;
+    color: #fff;
+    width: 100vw;
+    height: 8vh;
+    text-align: center;
+}
+#Container{
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 30em;
+    width: 30em;
+    margin: auto;
+    padding: 20px;
+}
+.input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 5px;
+}
+footer{
+    background-color: #fff;
+    color: #04C9F4;
+    text-align: center;
+    width: 100vw;
+    height: 3em;
+    margin: 0;
+}
