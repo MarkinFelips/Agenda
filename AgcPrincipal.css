@@ -44,9 +44,21 @@ header{
     padding: 5px;
     width: 100%;
     box-sizing: border-box;
+    width: 211px;
+    height: 45.27px;
 }
 label{
     margin-bottom: 5px;
+    width: 84.4px;
+    height: 19.68px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30em;
+    width: 30em;
 }
 footer{
     background-color: #fff;
